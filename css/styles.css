@@ -298,7 +298,6 @@ button {
 /* -----------------------Team----------------------- */
 .team {
   background-color: var(--second-background-color);
-  padding: 94px;
 }
 
 .team-title {
@@ -340,7 +339,7 @@ button {
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
-  margin-bottom: 30px;
+  margin-bottom: 16px;
 }
 
 .team-soc-list {
@@ -620,8 +619,12 @@ button {
   margin-bottom: 0;
 }
 
-.portfolio-item:hover,
-.portfolio-item:focus {
+.portfolio-link {
+  display: block;
+}
+
+.portfolio-link:hover,
+.portfolio-link:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
